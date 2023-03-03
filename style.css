@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: darkgrey;
+}
+
+.logo{
+    width: 122px;
+    height: 120px;
+    margin-left: 50px;
+}
+
+header{
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    box-shadow: 0 0 1rem black;
+}
+
+ul{
+    display: flex;
+    margin: 50px;
+
+}
+
+li{
+    color: white;
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 2rem;
+}
+
+.texto{
+    height: 50%;
+    width: 50%;
+    float: right;
+    margin-top: 100px;
+}
+
+.imagem1{
+    height: 50%;
+    width: 50%;
+    float: left;
+    
+}
+
+.img{
+    margin-top: 100px;
+    margin-left: 130px;
+    height: 320px;
+}
+
+.beneficios{
+    height: 50%;
+    text-align: center;
+    clear: both;
+}
+
+.texto2{
+    height: 10px;
+    width: 20%;
+    float: left;
+    margin-left: 30%;   
+}
+
+.imagem2{
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+.img2{
+    
+    margin-left: 200px;
+    height: 180px;
+    float: left;
+}
+
+.video{
+    margin-top: 300px;
+    margin-left: 550px; 
+    width: 550px;
+}
